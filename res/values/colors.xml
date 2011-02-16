@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+
+
+    <color name="question_screen_text">#000000</color>
+    <color name="survey_screen_text">#000000</color>
+    <color name="home_screen_text">#000000</color>
+    <color name="help_screen_text">#000000</color>
+    <color name="enter_pin_screen_text">#000000</color>
+
+    <color name="default_activity_background">#96ADB3</color>
+    <color name="default_title_bar">#000000</color>
+    <color name="default_title_bar_text">#FFFFFF</color>  
+</resources>  

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/home_screen"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@color/default_activity_background"
+	android:orientation="vertical">
+	
+	<TextView  
+		android:layout_width="fill_parent"
+		android:layout_height="42dip"
+		android:background="@drawable/image_title_bar_bg"
+		android:padding="4dip"
+		android:textSize="22dip"
+		android:textStyle="bold"
+		android:textColor="@color/default_title_bar_text"
+		android:text="Login"/>
+		
+	<LinearLayout
+	    android:padding="10dip"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:layout_weight="1">
+    
+    <TextView
+    	android:paddingBottom="15dip"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+    	android:textSize="22dip"
+	    android:textColor="@color/survey_screen_text"
+	    android:text="Please enter your Bus Id and click logon to start tracking"/>	
+	
+	<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/busid"
+		android:inputType="number"
+		android:textSize="32dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/question_screen_text"
+		android:hint="Example=2"/>	
+	
+	<Button 
+		    android:id="@+id/logon_button"  
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+			android:textSize="32dip"
+			android:text="Logon" />
+	
+	</LinearLayout>
+		
+	
+		
+		
+</LinearLayout>
